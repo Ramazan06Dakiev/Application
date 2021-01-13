@@ -40,6 +40,7 @@
   height: 22px;
   font-weight: 300;
   display: block;
+  /* блок good */
 }
 .good-block__subtitle::after {
   content: url(../img/good/angle-right.svg);
@@ -47,4 +48,42 @@
   position: relative;
   top: -20px;
   right: 17px;
+}
+.good-block__subtitle .good-block__title {
+  margin-bottom: 25px;
+  font-size: 22px;
+}
+.good-block__subtitle .good-block__subtitle {
+  font-size: 14px;
+}
+.good-block__subtitle .good-block__description {
+  margin-bottom: 26px;
+  font-size: 14px;
+}
+
+@media screen and (max-width: 768px) {
+  /* блок good */
+  .good {
+    margin-top: 50px;
+  }
+
+  .good-block img {
+    margin-top: 25px;
+  }
+
+  .good-block__title {
+    font-size: 16px;
+  }
+
+  .good-block__description {
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+
+  .good-block__subtitle {
+    font-size: 11px;
+  }
+  .good-block__subtitle::after {
+    top: -13px;
+  }
 }
