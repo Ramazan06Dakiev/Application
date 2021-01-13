@@ -1,0 +1,24 @@
+{
+  "name": "application",
+  "version": "1.0.0",
+  "description": "Application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ramazan06Dakiev/Application.git"
+  },
+  "author": "Ramazan akiev\u001b[D\u001b[D\u001b[D\u001b[D\u001b[DDakiev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ramazan06Dakiev/Application/issues"
+  },
+  "homepage": "https://github.com/Ramazan06Dakiev/Application#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.13",
+    "gulp": "^4.0.2",
+    "gulp-dart-sass": "^1.0.2"
+  }
+}
